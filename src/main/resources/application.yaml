@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: offer-integration
+
+rest:
+  offer-service:
+    url: ${REST_OFFER_SERVICE_URL:http://localhost:8080/api}
